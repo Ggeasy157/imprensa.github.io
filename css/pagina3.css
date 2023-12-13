@@ -1,0 +1,109 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+#cabecario {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    position: relative;
+
+    z-index: 1;
+
+}
+
+
+
+#cabecario a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 0 15px;
+
+}
+
+
+
+#main-content {
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+
+
+.section {
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.che-coluna {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+}
+
+
+
+.che-coluna img {
+
+    max-width: 45%;
+
+    margin-top: 10px;
+
+}
+
+
+
+.text-under-image {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    margin-top: 10px;
+
+}
+
+
+
+.text-under-image img {
+
+    max-width: 100%;
+
+    margin-bottom: 10px;
+
+}
